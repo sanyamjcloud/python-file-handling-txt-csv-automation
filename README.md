@@ -1,29 +1,47 @@
-# Python File Handling Task
+# Python File Handling (TXT and CSV)
 
-## Objective
-This task demonstrates file handling operations in Python using text files and CSV files.
+## Overview
 
-## Tasks Performed
-1. Created a text file using Python
-2. Wrote user input data into the file
-3. Read file contents
-4. Appended data to the file
-5. Handled file-related exceptions
-6. Created a CSV file using the csv module
-7. Wrote multiple rows into the CSV
-8. Read and displayed CSV data
-9. Used context managers to close files properly
+This repository demonstrates file handling operations in Python, including reading, writing, and processing data from text and CSV files.
 
-## Files Included
-- `file_handling.py` → Python script
-- `data.txt` → Text file created by script
-- `students.csv` → CSV file created by script
+## Tech Stack
 
-## Tools Used
-- Python
-- VS Code
-- GitHub
+* Python
+* Built-in file handling
+* CSV module
 
-## How to Run
+## Features
+
+* Read and write text files
+* Process CSV data
+* Extract and transform structured data
+
+## Usage
+
+Run the script:
+
 ```bash
-python file_handling.py
+python app.py
+```
+
+## Example Operations
+
+* Read data from a `.txt` file
+* Parse CSV records
+* Write processed output to a file
+
+## Sample Output
+
+(Add sample input/output screenshots)
+
+## Learning Outcomes
+
+* File I/O operations in Python
+* Handling structured data formats
+* Basic data processing
+
+## Possible Enhancements
+
+* Add error handling for file operations
+* Integrate with databases
+* Build CLI-based file processor
